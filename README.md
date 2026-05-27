@@ -4,7 +4,7 @@ A production-ready, containerized FastAPI microservice that classifies SMS text 
 
 ---
 
-## 🏗️ Architecture & Stack
+## Architecture & Stack
 
 - **Framework:** FastAPI (Python 3.13) 
 - **Database Layer:** PostgreSQL 15 managed seamlessly through SQLAlchemy ORM sessions.
@@ -13,7 +13,7 @@ A production-ready, containerized FastAPI microservice that classifies SMS text 
 
 ---
 
-## ⚡ Quick Start (Local Run via Docker Compose)
+## Quick Start (Local Run via Docker Compose)
 
 Thanks to Docker orchestration, you don't need to install Python, PostgreSQL, or any ML frameworks on your host machine. You can boot the entire infrastructure with a single command block.
 
@@ -35,7 +35,7 @@ docker compose up --build
 
 ---
 
-## ⚙️ Project Structure
+## Project Structure
 
 ```text
 spam-detection-api/
